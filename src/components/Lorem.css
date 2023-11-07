@@ -1,0 +1,45 @@
+/* TextWithImages.css */
+
+.text-with-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Use 'flex-start' to align content to the start */
+    justify-content: flex-start; /* Use 'flex-start' to align content to the start */
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-right: 20%;
+    margin-top: 90%;
+    /* Use 'flex-end' to push the images to the right */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    margin-right: 20px; /* Add the desired gap between the images */
+  }
+  
+  .logo {
+    max-width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    position: absolute;
+    top: 20px; /* Place the image at the top */
+    left: 20px; /* Place the image at the left */
+  }
+  

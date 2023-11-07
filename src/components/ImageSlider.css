@@ -1,0 +1,35 @@
+/* CSS in ImageSlider.css or any other appropriate CSS file */
+
+.image-container {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center; /* Center vertically within the container */
+    justify-content: center; /* Center horizontally within the container */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    object-fit: cover;
+  }
+  
+  
+  /* CSS in your component or in a separate CSS file */
+
+.right-half {
+    flex: 1;
+    background-color: #e0e0e0;
+   
+    display: flex;
+    align-items: center; /* Center vertically within the container */
+    justify-content: center; /* Center horizontally within the container */
+    object-fit: contain;
+  }
+  
+  .right-half img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    max-height: 100%; /* Ensure the image does not exceed the container height */
+    object-fit: cover; /* Use 'contain' to make the image fit within the container while maintaining aspect ratio */
+  }
+  

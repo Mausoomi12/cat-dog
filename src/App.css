@@ -1,0 +1,27 @@
+/* App.css */
+
+body {
+  overflow: hidden; /* Prevent scrolling on the entire page */
+}
+
+.homepage {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.left-half {
+  flex: 1;
+  background-color: #FDE3D9;
+  height: 100vh; /* Set the height to cover the entire viewport height */
+  display: flex;
+  flex-direction: column; /* To stack content vertically */
+}
+
+.right-half {
+  flex: 1;
+  background-color:#FDE3D9;
+  height: 100vh; /* Set the height to cover the entire viewport height */
+  display: flex;
+  flex-direction: column; /* To stack content vertically */
+}
